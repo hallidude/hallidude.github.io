@@ -1,0 +1,56 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{
+	border:0;
+	margin:0;
+	padding:0;
+	outline:0;
+}
+@font-face { font-family: Gil; src: url('gil.ttf'); } 
+body{
+	background:#000 repeat top left;
+	font-size:20px;
+	text-decoration:none;
+	text-align:center;
+	color:#fff;
+	line-height:24px;
+	font-family:Gil, calibri, arial, sans-serif;
+}
+
+#outerwrapper{
+	margin:0 auto 0 auto;
+	text-align:left;
+	height:700px;
+	width:720px;
+}
+
+#header{
+	margin:0 auto 0 auto;
+}
+
+#maincontent{
+	margin:60px auto 0 auto;
+	font-family:Calibri, sans-serif; 
+}
+
+#leftcolumn{
+	float:left;
+}
+
+#rightcolumn{
+	float:right;
+}
+#footer{
+		margin:0 auto 0 auto;
+}
+
+h1{	font-family:Gil, sans-serif; font-size:36px; }
+
+.link{
+	color:#6495ED;
+	text-decoration:none;
+}
+.link:hover{
+	color:#fff;
+}
