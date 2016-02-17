@@ -9,7 +9,7 @@
 }
 @font-face { font-family: Gil; src: url('gil.ttf'); } 
 body{
-	background:#000 repeat top left;
+	background:#0000FF repeat top left;
 	font-size:20px;
 	text-decoration:none;
 	text-align:center;
