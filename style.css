@@ -10,7 +10,7 @@
 @font-face { font-family: Gil; src: url('gil.ttf'); } 
 body{
 	background:#0000FF repeat top left;
-	font-size:20px;
+	font-size:50px;
 	text-decoration:none;
 	text-align:center;
 	color:#fff;
