@@ -1,56 +1,72 @@
-@charset "utf-8";
-/* CSS Document */
-
-*{
-	border:0;
-	margin:0;
-	padding:0;
-	outline:0;
-}
-@font-face { font-family: Gil; src: url('gil.ttf'); } 
-body{
-	background:#0000FF repeat top left;
-	font-size:50px;
-	text-decoration:none;
-	text-align:center;
-	color:#000000;
-	line-height:24px;
-	font-family:Gil, calibri, arial, sans-serif;
+/* Initial body */
+body {
+  left: 0;
+  margin: 0;
+  overflow: hidden;
+  position: relative;
 }
 
-#outerwrapper{
-	margin:0 auto 0 auto;
-	text-align:left;
-	height:700px;
-	width:720px;
+/* Initial menu */
+.menu {
+  background: #202024 url('http://s3.amazonaws.com/codecademy-content/courses/ltp2/img/uber/black-thread.png') repeat left top;
+  left: -285px;  /* start off behind the scenes */
+  height: 100%;
+  position: fixed;
+  width: 285px;
 }
 
-#header{
-	margin:0 auto 0 auto;
+/* Basic styling */
+
+.jumbotron {
+  background-image: url('http://s3.amazonaws.com/codecademy-content/courses/ltp2/img/uber/bg.png'); 
+  height: 100%;
+  -webkit-background-size: cover;
+     -moz-background-size: cover;
+       -o-background-size: cover;
+          background-size: cover;
 }
 
-#maincontent{
-	margin:60px auto 0 auto;
-	font-family:Calibri, sans-serif; 
+.menu ul {
+  border-top: 1px solid #636366;
+  list-style: none;
+  margin: 0;
+  padding: 0;
 }
 
-#leftcolumn{
-	float:left;
+.menu li {
+  border-bottom: 1px solid #636366;
+  font-family: 'Open Sans', sans-serif;
+  line-height: 45px;
+  padding-bottom: 3px;
+  padding-left: 20px;
+  padding-top: 3px;
 }
 
-#rightcolumn{
-	float:right;
-}
-#footer{
-		margin:0 auto 0 auto;
+.menu a {
+  color: #fff;
+  font-size: 15px;
+  text-decoration: none;
+  text-transform: uppercase;
 }
 
-h1{	font-family:Gil, sans-serif; font-size:36px; }
-
-.link{
-	color:#6495ED;
-	text-decoration:none;
+.icon-close {
+  cursor: pointer;
+  padding-left: 10px;
+  padding-top: 10px;
 }
-.link:hover{
-	color:#fff;
+
+.icon-menu {
+  color: #fff;
+  cursor: pointer;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  padding-bottom: 25px;
+  padding-left: 25px;
+  padding-top: 25px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.icon-menu i {
+  margin-right: 5px;
 }
